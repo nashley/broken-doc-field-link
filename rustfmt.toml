@@ -1,0 +1,3 @@
+# tabs for indentation; spaces for alignment
+hard_tabs = true
+newline_style = "Unix"
