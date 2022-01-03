@@ -3,9 +3,9 @@ pub struct Test {
 }
 
 impl Test {
-	// This link will point to `#method.foo` instead of `#structfield.foo`:
+	// This link will correctly point to `#structfield.foo`:
 	/// Returns [Test::foo]
-	pub fn foo(&self) -> u8 {
+	pub fn get_foo(&self) -> u8 {
 		self.foo
 	}
 }
